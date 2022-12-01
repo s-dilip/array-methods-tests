@@ -1,0 +1,31 @@
+body {
+  font-family: "Arial";
+}
+
+.input-field {
+  display: block;
+  margin: 10px;
+}
+
+#output {
+  height: 2000px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  overflow: scroll;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.record {
+  margin: 2px;
+  border: 1px solid black;
+  color: green;
+}
+
+#display-record {
+  float: right;
+  margin-top: -400px;
+}
