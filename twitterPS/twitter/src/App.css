@@ -1,0 +1,230 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+img {
+	border-radius: 50%;
+	height: 10em;
+	width: 10em;
+	border: 2px solid rgb(180, 180, 180);
+}
+
+label {
+	margin: 10px;
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+	color: rgb(228, 228, 228);
+}
+
+button {
+	background-color: #3b9fb8;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 32px;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 97%;
+	font-size: 16px;
+}
+
+.bodyWrapper {
+	display: flex;
+	flex-direction: row;
+	margin: 1em;
+	height: 100vh;
+}
+
+.profileWrapper {
+	max-height: 50vh;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.profileInfo {
+	margin: 5px;
+	width: 40vw;
+	border-radius: 5px;
+	background-color: rgba(63, 155, 172, 0.5);
+	display: flex;
+	justify-content: center;
+}
+
+#profilePicture {
+	margin: 10px;
+	display: flex;
+	position: relative;
+	border-radius: 50%;
+	justify-content: center;
+}
+
+.editProfile {
+	display: flex;
+	float: right;
+}
+
+.profileEditFields {
+	margin: 7px;
+}
+
+.tweetsListWrapper {
+	display: flex;
+	flex-direction: column;
+	top: 175px;
+	/* width: 100%; */
+	position: relative;
+}
+
+#tweetButton {
+	width: 39vw;
+}
+
+.tweet {
+	overflow: auto;
+	/*  */
+	border: 1px solid #3b9fb8;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.tweetInput {
+	width: 39vw;
+	height: 100px;
+	color: #3e3f3f;
+	border: 2px solid #3b9fb8;
+	border-radius: 4px;
+	margin: 2px;
+	font-size: larger;
+	text-align: start;
+}
+
+.createTweet {
+	align-content: center;
+	overflow: scroll;
+	width: 40vw;
+}
+
+.tweetInputFields {
+	position: fixed;
+	background-color: white;
+	z-index: 200;
+}
+
+.info {
+	margin: 10px;
+	color: #666969;
+}
+
+.tweetProfilePicture {
+	height: 50px;
+	width: 50px;
+	display: flex;
+	margin-right: 7px;
+}
+
+.tweetUserInfo {
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+	color: rgb(180, 180, 180);
+}
+
+.tweetContent {
+	margin-left: 15px;
+}
+
+.tweetDisplayName {
+	margin-right: 10px;
+	color: skyblue;
+	font-size: larger;
+}
+
+.tweetDisplayUserName {
+	padding: 0px;
+	color: rgb(70, 70, 70);
+	font-weight: lighter;
+}
